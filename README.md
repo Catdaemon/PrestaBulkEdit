@@ -9,7 +9,7 @@ A bulk product editor for PrestaShop. Written because some people charge silly m
 - Does not integrate with the PrestaShop back-office interface, and does not authenticate users, so place with care
     + If you *must* use it in a production environment, please password protect the directory at a minimum
 
-## Dependancies
+## Dependencies
 - SimpleSite/class.db.php (from my SimpleSite repository).
     + Alternatively, replace $db with an initialised PDO of your choice
 - jQuery (configurable path)
